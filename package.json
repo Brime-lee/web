@@ -1,0 +1,70 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innov8-devs/web.git"
+  },
+  "author": "Victor Akerele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innov8-devs/web/issues"
+  },
+  "homepage": "https://github.com/innov8-devs/web#README",
+  "dependencies": {
+    "@apollo/client": "^3.5.6",
+    "@bugsnag/js": "^7.14.1",
+    "@bugsnag/plugin-react": "^7.14.0",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@soywod/pin-field": "^0.2.2",
+    "@types/styled-components": "^5.1.16",
+    "apollo-boost": "^0.4.9",
+    "apollo-upload-client": "^17.0.0",
+    "axios": "^0.24.0",
+    "cookie": "^0.4.1",
+    "formik": "^2.2.9",
+    "graphql": "^16.1.0",
+    "moment": "^2.29.1",
+    "next": "11.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^17.0.2",
+    "react-google-maps": "^9.4.5",
+    "react-icons": "^4.3.1",
+    "react-loading-skeleton": "^3.0.2",
+    "react-multi-form": "^1.0.5",
+    "react-pin-field": "^2.0.0-beta.3",
+    "react-redux": "^7.1.3",
+    "react-slideshow-image": "^3.6.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "storejars-react-toolkit": "^1.0.27",
+    "styled-components": "^5.3.3",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-redux": "^7.1.7",
+    "@types/yup": "^0.26.27",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^8.7.0",
+    "eslint-config-next": "12.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.0.5",
+    "typescript": "^4.5.2"
+  },
+  "cacheDirectories": [
+    ".next/cache"
+  ]
+}

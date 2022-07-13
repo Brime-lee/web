@@ -1,0 +1,5 @@
+export default {
+  BASE_URL: process.env.NEXT_PUBLIC_GATEWAY_URL,
+  BUGSNAG_KEY: '12345678909876543212345677890987',
+  TOKEN_STORAGE: 'hightable',
+};
